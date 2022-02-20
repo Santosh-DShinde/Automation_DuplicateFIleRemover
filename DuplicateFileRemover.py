@@ -109,9 +109,9 @@ def RemoveDuplicateFiles(Dups, fd, fileName, LogFileName):
 
 def mail_Sending(File_Name, Counter, NumberOfFileFound, Executiontime, LogFileName):
     try:
-        Sender = "shindesan3047@gmail.com"
+        Sender = "YourMailID"
         Receiver = argv[3]
-        password = "Darshan@1214"
+        password = "YourPassword"
 
         msg = MIMEMultipart()
         msg['From'] = Sender
